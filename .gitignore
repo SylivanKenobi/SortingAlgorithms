@@ -3,7 +3,7 @@
 *.log
 
 bin/
-
+src/images/
 .idea
 .project
 .classpath

@@ -12,7 +12,6 @@ public class test {
 		sorting(a);
 
 		// Check the output which is sorted array
-
 		System.out.println(a);
 	}
 

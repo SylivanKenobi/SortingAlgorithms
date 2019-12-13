@@ -7,8 +7,7 @@ public class BubbleSort extends PApplet {
 	boolean start = false;
 
 	public static void main(String[] args) {
-		PApplet.main("sort.BubbleSort"); // TODO Auto-generated method stub
-
+		PApplet.main("BubbleSort");
 	}
 
 	public void settings() {
@@ -30,7 +29,7 @@ public class BubbleSort extends PApplet {
 			start = true;
 		}
 		if (start == true) {
-			for (int i = 0; i < 5; i++) {
+			for (int i = 0; i < 50; i++) {
 				sort();
 			}
 		}
@@ -41,7 +40,6 @@ public class BubbleSort extends PApplet {
 
 	public void sort() {
 		for (int i = 0; i < random.size() - 1; i++) {
-
 			if (random.get(i) > random.get(i + 1)) {
 				Float temp = random.get(i);
 				random.set(i, random.get(i + 1));

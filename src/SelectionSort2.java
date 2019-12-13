@@ -14,7 +14,7 @@ public class SelectionSort2 extends PApplet {
 	boolean second = false;
 
 	public static void main(String[] args) {
-		PApplet.main("sort.SelectionSort2"); // TODO Auto-generated method stub
+		PApplet.main("SelectionSort2");
 
 	}
 
