@@ -48,7 +48,6 @@ public class ColorSort extends PApplet {
                 red.add(sorted.pixels[i]);
             } else if (color1.getGreen() > color1.getBlue() && color1.getGreen() > color1.getRed()) {
                 green.add(sorted.pixels[i]);
-
             } else if (color1.getBlue() > color1.getRed() && color1.getBlue() > color1.getGreen()) {
                 blue.add(sorted.pixels[i]);
             } else {
